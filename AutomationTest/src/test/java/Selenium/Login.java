@@ -11,6 +11,7 @@ public class Login {
 		System.setProperty("webdriver.chrome.driver", ".driver/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://demoqa.com/");
+		driver.manage().window().maximize();
 	}
 
 }
